@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: url(https://i.gifer.com/xK.gif) no-repeat;
+    background-size: 2000px 1000px;   
+}
+.conteiner {
+    min-height: 100%;
+    overflow: hidden;
+    width: 1440px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.image-filter {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.3;
+}
+.pole {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 20px;
+    left: 780px;
+    
+}
+.name {
+    
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    color: #fe75fe;
+    border-right:  4px solid #fe75fe;
+    animation: cursor 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+@keyframes cursor{
+    0%{
+        border-color: #fe75fe;
+    }
+
+    50%{
+        border-color: transparent;
+    }
+
+    100%{
+        border-color: #fe75fe;
+    }
+}
+.pole2 {
+    position: absolute;
+    max-width: 600px;
+    height: 200px;
+    top: 250px;
+    left: 650px;
+
+
+}
+.text {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #defe47;
+    text-align: center
+}
+.Kwadrat {
+    position: absolute;
+    border: 4px solid #fff;
+    width: 163px;
+    height: 50px;
+    background-color: #73fffe;
+    top: 550px;
+    left: 730px;
+    justify-content: center;
+    
+}
+.VK {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    top: 14px;
+}
+li {
+    list-style-type: none;
+}
+.Kwadrat2 {
+    position: absolute;
+    border: 4px solid #fff;
+    width: 163px;
+    height: 50px;
+    background-color: #fe75fe;
+    top: 550px;
+    left: 1000px;
+    justify-content: center;
+}
+.TG {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    top: 14px;
+}
+@media screen and (max-width: 1025px) {
+    .conteiner {
+        min-height: 100%;
+        overflow: hidden;
+        width: 1440px;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+}
+
+
